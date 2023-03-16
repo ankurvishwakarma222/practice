@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin:50px  auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.container div{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.container div h1{
+    text-align: center;
+    background: red;
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
