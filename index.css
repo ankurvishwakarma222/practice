@@ -21,3 +21,7 @@
     color: whitesmoke;
     margin-bottom: 5px;
 }
+.container div p{
+    line-height: 25px;
+    text-align: justify;
+}
